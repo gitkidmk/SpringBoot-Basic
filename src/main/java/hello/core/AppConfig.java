@@ -27,3 +27,5 @@ public class AppConfig {
         return new OrderServiceImpl(memberRepository(), discountPolicy());
     }
 }
+
+// TODO: IoC, DI 그리고 컨테이너
