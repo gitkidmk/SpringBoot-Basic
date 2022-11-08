@@ -19,7 +19,7 @@ public class AppConfig {
         return new FixDiscountPolicy();
     }
 
-    public MemberService memberServic() {
+    public MemberService memberService() {
         return new MemberServiceImpl(memberRepository());
     }
 
