@@ -12,7 +12,7 @@ public class ConfigurationSingletonTest {
         AppConfig bean = ac.getBean(AppConfig.class);
         System.out.println("bean.getClass() = " + bean.getClass());
         /*
-        AppConfig를 보면 분명 emberRepository의 경우 세번 실행되어야하지만, 실제 AppConfig에서는 단 한번만의 실행이 됨을 확인함
+        AppConfig를 보면 분명 memberRepository의 경우 세번 실행되어야하지만, 실제 AppConfig에서는 단 한번만의 실행이 됨을 확인함
         왜 그럴까?
         AppConfig 빈 출력 결과를 보면
         bean.getClass() = class hello.core.AppConfig$$EnhancerBySpringCGLIB$$2b0f67d
